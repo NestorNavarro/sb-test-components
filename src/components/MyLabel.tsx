@@ -27,7 +27,7 @@ export interface MyLabelProps {
    backgroundColor ?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
     label,
     fontColor,
     allCaps = false,
