@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.css?inline';
+import './button.css';
 
 export interface ButtonProps {
   /**

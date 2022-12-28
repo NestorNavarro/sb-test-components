@@ -1,4 +1,4 @@
-import "./mylabel.css?inline";
+import "./mylabel.css";
 type size = "normal" | "h1" | "h2" | "h3"
 export interface MyLabelProps {
     /**

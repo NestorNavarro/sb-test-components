@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Button } from './Button';
-import './header.css?inline';
+import './header.css';
 
 export type User = {
   name: string;
