@@ -1,25 +1,8 @@
-"use strict";
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.CustomFontBackgroundColor = exports.CustomFontColor = exports.Tertiary = exports.Secondary = exports.AllCaps = exports.Basic = void 0;
-var jsx_runtime_1 = require("react/jsx-runtime");
-var MyLabel_1 = __importDefault(require("../../components/MyLabel"));
-exports.default = {
+import { jsx as _jsx } from "react/jsx-runtime";
+import MyLabel from "../../components/MyLabel";
+export default {
     title: "UI/Etiquetas/Mylabel",
-    component: MyLabel_1.default,
+    component: MyLabel,
     argTypes: {
         size: { control: "select" },
         color: { control: "select" },
@@ -27,39 +10,39 @@ exports.default = {
         backgroundColor: { control: "color" },
     }
 };
-var Template = function (args) { return (0, jsx_runtime_1.jsx)(MyLabel_1.default, __assign({}, args)); };
-exports.Basic = Template.bind({});
-exports.Basic.args = {
+const Template = (args) => _jsx(MyLabel, { ...args });
+export const Basic = Template.bind({});
+Basic.args = {
     label: "Basic",
     size: "normal",
     allCaps: false,
 };
-exports.AllCaps = Template.bind({});
-exports.AllCaps.args = {
+export const AllCaps = Template.bind({});
+AllCaps.args = {
     label: "AllCaps",
     size: "normal",
     allCaps: true,
 };
-exports.Secondary = Template.bind({});
-exports.Secondary.args = {
+export const Secondary = Template.bind({});
+Secondary.args = {
     label: "Secondary",
     size: "normal",
     color: "secondary",
 };
-exports.Tertiary = Template.bind({});
-exports.Tertiary.args = {
+export const Tertiary = Template.bind({});
+Tertiary.args = {
     label: "Tertiary",
     size: "normal",
     color: "tertiary",
 };
-exports.CustomFontColor = Template.bind({});
-exports.CustomFontColor.args = {
+export const CustomFontColor = Template.bind({});
+CustomFontColor.args = {
     label: "CustomFontColorH1",
     size: "h1",
     fontColor: "#000",
 };
-exports.CustomFontBackgroundColor = Template.bind({});
-exports.CustomFontBackgroundColor.args = {
+export const CustomFontBackgroundColor = Template.bind({});
+CustomFontBackgroundColor.args = {
     label: "CustomFontColorH1",
     size: "h1",
     fontColor: "#fff",

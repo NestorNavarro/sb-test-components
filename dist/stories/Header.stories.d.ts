@@ -4,3 +4,4 @@ declare const _default: ComponentMeta<({ user, onLogin, onLogout, onCreateAccoun
 export default _default;
 export declare const LoggedIn: ComponentStory<({ user, onLogin, onLogout, onCreateAccount }: import("./Header").HeaderProps) => JSX.Element>;
 export declare const LoggedOut: ComponentStory<({ user, onLogin, onLogout, onCreateAccount }: import("./Header").HeaderProps) => JSX.Element>;
+//# sourceMappingURL=Header.stories.d.ts.map

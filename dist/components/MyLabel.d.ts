@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import "./mylabel.css?inline";
+import "./mylabel.css";
 type size = "normal" | "h1" | "h2" | "h3";
 export interface MyLabelProps {
     /**
@@ -29,3 +29,4 @@ export interface MyLabelProps {
 }
 export declare const MyLabel: ({ label, fontColor, allCaps, color, size, backgroundColor, }: MyLabelProps) => JSX.Element;
 export default MyLabel;
+//# sourceMappingURL=MyLabel.d.ts.map

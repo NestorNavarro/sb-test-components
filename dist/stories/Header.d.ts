@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import './header.css?inline';
+import './header.css';
 export type User = {
     name: string;
 };
@@ -11,3 +11,4 @@ export interface HeaderProps {
 }
 export declare const Header: ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => JSX.Element;
 export default Header;
+//# sourceMappingURL=Header.d.ts.map

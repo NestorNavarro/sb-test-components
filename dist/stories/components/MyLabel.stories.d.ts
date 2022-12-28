@@ -8,3 +8,4 @@ export declare const Secondary: ComponentStory<({ label, fontColor, allCaps, col
 export declare const Tertiary: ComponentStory<({ label, fontColor, allCaps, color, size, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;
 export declare const CustomFontColor: ComponentStory<({ label, fontColor, allCaps, color, size, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;
 export declare const CustomFontBackgroundColor: ComponentStory<({ label, fontColor, allCaps, color, size, backgroundColor, }: import("../../components/MyLabel").MyLabelProps) => JSX.Element>;
+//# sourceMappingURL=MyLabel.stories.d.ts.map

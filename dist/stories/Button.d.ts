@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import './button.css?inline';
+import './button.css';
 export interface ButtonProps {
     /**
      * Is this the principal call to action on the page?
@@ -27,3 +27,4 @@ export interface ButtonProps {
  */
 export declare const Button: ({ primary, size, backgroundColor, label, ...props }: ButtonProps) => JSX.Element;
 export default Button;
+//# sourceMappingURL=Button.d.ts.map

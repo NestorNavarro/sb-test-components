@@ -6,3 +6,4 @@ export declare const Primary: ComponentStory<({ primary, size, backgroundColor, 
 export declare const Secondary: ComponentStory<({ primary, size, backgroundColor, label, ...props }: import("./Button").ButtonProps) => JSX.Element>;
 export declare const Large: ComponentStory<({ primary, size, backgroundColor, label, ...props }: import("./Button").ButtonProps) => JSX.Element>;
 export declare const Small: ComponentStory<({ primary, size, backgroundColor, label, ...props }: import("./Button").ButtonProps) => JSX.Element>;
+//# sourceMappingURL=Button.stories.d.ts.map
