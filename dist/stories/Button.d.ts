@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import './button.css';
+import './button.css?inline';
 export interface ButtonProps {
     /**
      * Is this the principal call to action on the page?

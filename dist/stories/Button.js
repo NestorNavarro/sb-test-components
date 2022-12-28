@@ -24,7 +24,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Button = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
-require("./button.css");
+require("./button.css?inline");
 /**
  * Primary UI component for user interaction
  */

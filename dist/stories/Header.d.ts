@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import './header.css';
+import './header.css?inline';
 export type User = {
     name: string;
 };

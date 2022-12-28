@@ -13,7 +13,7 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MyLabel = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
-require("./mylabel.css");
+require("./mylabel.css?inline");
 var MyLabel = function (_a) {
     var label = _a.label, fontColor = _a.fontColor, _b = _a.allCaps, allCaps = _b === void 0 ? false : _b, _c = _a.color, color = _c === void 0 ? "primary" : _c, _d = _a.size, size = _d === void 0 ? "normal" : _d, _e = _a.backgroundColor, backgroundColor = _e === void 0 ? "transparent" : _e;
     return ((0, jsx_runtime_1.jsx)("span", __assign({ className: "label ".concat(size, " text-").concat(color, " "), style: {
