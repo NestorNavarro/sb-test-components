@@ -1,5 +1,7 @@
 {
   "name": "nav-my-storybook-temp",
+  "version": "0.1.0",
+  "type": "module",
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
@@ -17,8 +19,6 @@
     "dist",
     "src"
   ],
-  "version": "0.1.0",
-  "type": "module",
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "yarn clean && tsc && yarn copy-files",
